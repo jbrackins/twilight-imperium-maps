@@ -4,6 +4,8 @@ from planet import Planet
 from rules  import RuleSet
 from tile   import SystemTile
 from parse  import XMLParser
+from maps   import GalaxyMap
+
 if __name__ == "__main__":
     if(len(sys.argv) > 1):
         num = int(sys.argv[1])
@@ -22,13 +24,14 @@ if __name__ == "__main__":
     s = SystemTile(systype="Mecatol Rex",planets=[p])
     print(s,"\n")
 
-    x1 = XMLParser("ti.xml")
-    c1 = x1.test()
-    x2 = XMLParser("shards.xml")
-    c2 = x2.test()
-    x3 = XMLParser("shattered.xml")
-    c3 = x3.test()
+    g = GalaxyMap(r)
+    #x1 = XMLParser("ti.xml")
+    #c1 = x1.test()
+    #x2 = XMLParser("shards.xml")
+    #c2 = x2.test()
+    #x3 = XMLParser("shattered.xml")
+    #c3 = x3.test()
 
-    print("Twilight Imperium Tile Count   :", c1)
-    print("Shards of the Throne Tile Count:", c2)
-    print("Shattered Empire Tile Count    :", c3)
+    #print("Twilight Imperium Tile Count   :", c1)
+    #print("Shards of the Throne Tile Count:", c2)
+    #print("Shattered Empire Tile Count    :", c3)
