@@ -35,12 +35,15 @@ class XMLParser:
         return self.tree.getroot()
 
     def test(self):
+        count = 0
         root = self.getRoot()
         for tile in root:
+            count += 1
             for info in tile:
                 print(info.tag.upper(), ":", info.text)
             for planet in tile.findall('planet'):
                 print("\t", planet.attrib['name'])
+        return count
 
 if __name__ == "__main__":
     if(len(sys.argv) > 1):

@@ -23,8 +23,12 @@ if __name__ == "__main__":
     print(s,"\n")
 
     x1 = XMLParser("ti.xml")
-    x1.test()
+    c1 = x1.test()
     x2 = XMLParser("shards.xml")
-    x2.test()
+    c2 = x2.test()
     x3 = XMLParser("shattered.xml")
-    x3.test()
+    c3 = x3.test()
+
+    print("Twilight Imperium Tile Count   :", c1)
+    print("Shards of the Throne Tile Count:", c2)
+    print("Shattered Empire Tile Count    :", c3)
