@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<list>
+	<tile>
+		<color>Yellow</color>
+		<property>Mecatol Rex</property>
+		<gates>None</gates>
+		<race>The Lazax</race>
+		<planet name="Mecatol Rex"
+				description = 
+					"Seat to the Lazax, Mecatol Rex serves as home to the Galactic Council. Its green fields are only interrupted by sprawling cities of unimaginable wealth."
+				resources   = "3"
+				influence   = "6">		
+		</planet> 
+	</tile>
+</list>

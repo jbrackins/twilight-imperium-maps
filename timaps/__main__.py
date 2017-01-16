@@ -3,7 +3,7 @@ import sys
 from planet import Planet
 from rules  import RuleSet
 from tile   import SystemTile
-
+from parse  import XMLParser
 if __name__ == "__main__":
     if(len(sys.argv) > 1):
         num = int(sys.argv[1])
@@ -21,3 +21,10 @@ if __name__ == "__main__":
 
     s = SystemTile(systype="Mecatol Rex",planets=[p])
     print(s,"\n")
+
+    x1 = XMLParser("ti.xml")
+    x1.test()
+    x2 = XMLParser("shards.xml")
+    x2.test()
+    x3 = XMLParser("shattered.xml")
+    x3.test()
