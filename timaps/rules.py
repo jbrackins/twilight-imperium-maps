@@ -27,6 +27,8 @@ class RuleSet:
         self.regularCount = reg
         self.other        = other
         self.randRemove   = 0
+        self.shards       = True  # shards of the throne
+        self.shattered    = False # shattered empire
         self.generateRules()
 
     def setRules(self,s,e,r,rand=0):
