@@ -26,6 +26,24 @@ class SystemTile:
         self.planets  = planets # Planets located in system
         self.race     = race    # Races associated with system (if any)
 
+    def setColor(self,color):
+        self.color = color
+
+    def setType(self,systype):
+        self.type  = systype
+
+    def setProperty(self,prop):
+        self.property = prop
+
+    def setGates(self,gates):
+        self.gates = gates 
+
+    def setPlanets(self, planets):
+        self.planets = planets 
+
+    def setRace(self,race):
+        self.race = race 
+
     def __repr__(self):
         msg =  "<Tile Color:%s | Type:%s | "  % (self.color, self.type)
         msg += "Property:%s | Gates:%s>\n" % (self.property, self.gates)
@@ -35,7 +53,7 @@ class SystemTile:
         if self.planets != None:
             msg += "Planet Info:\n"
             for planet in self.planets:
-                msg += str(planet)
+                msg += str(planet) + "\n"
 
         return msg
 
