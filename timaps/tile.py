@@ -20,7 +20,7 @@ class SystemTile:
         """
 
         self.color    = color   # Red, Yellow, None
-        self.type     = systype # Special, Empty, Regular, Mecatol Rex
+        self.type     = systype # Special, Empty, Regular, Mecatol Rex, Home
         self.property = prop    # Supernova, Nebula, etc. 
         self.gates    = gates   # Alpha, Beta, Delta
         self.planets  = planets # Planets located in system
