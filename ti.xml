@@ -2,14 +2,881 @@
 <list>
 	<tile>
 		<color>None</color>
-		<property>Mecatol Rex</property>
+		<type>Mecatol Rex</type>
+		<property>None</property>
 		<gates>None</gates>
 		<race>None</race>
 		<planet name="Mecatol Rex"
 				description = 
 					"Once a splendid place, now a sad devastated wasteland. Only the radiation-shielded Mecatol City, the seat of the powerful Galactic Council, remains habitable."
 				resources   = "1"
-				influence   = "6">		
+				influence   = "6"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
 		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>Federation of Sol</race>
+		<planet name="Jord"
+				description = 
+					"Distinctly seasonal, with the greatest variety of climates and ecologies in the galaxy. The Federation of Sol rules the Jord humans from the great city of New Moscow."
+				resources   = "4"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Xxcha Kingdom</race>
+		<planet name="Archon Ren"
+				description = 
+					"Populated by small arboreal villages, this planet's only true urban center is the royal city of Kklaj. The Xxcha home world and home to the renowned library of Xuun."
+				resources   = "2"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Archon Tau"
+				description = 
+					"Ravaged by Sol and Letnev bombardments during the Twilight Wars. The Xxcha commit substantial resources to rebuilding its ecology and cleansing its toxic continents."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Naalu Collective</race>
+		<planet name="Maaluuk"
+				description = 
+					"Mostly pungent marshland and mudplains. Original world of the Naalu race, which now enslaves the winged Miashan to work its great iron-extraction plants."
+				resources   = "0"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Druaa"
+				description = 
+					"Despite its oversized poles, one of the most beautiful of planets. Its flowered steppes, violet mountains, and glowing forests are famous across the galaxy."
+				resources   = "3"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Emirates of Hacan</race>
+		<planet name="Arretze"
+				description = 
+					"Also called the 'Moving Sand.' The desert home of the Hacan Mowshir trade families and the great orbital trading ports of Haal, Shimax, and Dry Wind."
+				resources   = "2"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Hercant"
+				description = 
+					"Also called the 'Fire Sand.' Seat of the Quieron, the Hacan council, and the Sword Fleet. Harbors the greatest of the famous Hacan moving cities."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Kamdorn"
+				description = 
+					"Also called the 'Dream Sand.' The least populated of the Hacan planets, but the center of Hacan mythology and religion. The only known source of starflowers"
+				resources   = "0"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Barony of Letnev</race>
+		<planet name="Arc Prime"
+				description = 
+					"Below the thin surface atmosphere lie the continent-size caverns of the Letnev. Rich in metals and energy, its vast fungus fields struggle to feed its population."
+				resources   = "4"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Wren Terra"
+				description = 
+					"Arid, windy, and populated primarily by predatory Daartar hounds. The Barony utilizes large swaths of its northern steppes for low-yield agriculture."
+				resources   = "2"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The L1z1x Mindset</race>
+		<planet name="[0.0.0]"
+				description = 
+					"The elusive energy-rich planet was the desperate destination of the secret Lazax Diaspora. Now, it is a technological nightmare."
+				resources   = "5"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Mentak Coalition</race>
+		<planet name="Moll Primus"
+				description = 
+					"In places lush and rich, in others a barren wasteland. This old Lazax penal colony has prospered under the rule of the governing Mentak Coalition."
+				resources   = "4"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>Universities of Jol-Nar</race>
+		<planet name="Nar"
+				description = 
+					"Covered by mild oceans and a small archipelago called the Reef by off-worlders. The Circle of Regents makes its home in the underwater city-school of Nuun-Dascha."
+				resources   = "2"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Jol"
+				description = 
+					"Covered by cold oceans and a few inhospitable islands. The seat of the Head Master, the Hylar ruler, who dwells in the deep underwater city of Wun-Escha."
+				resources   = "1"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Yssaril Tribes</race>
+		<planet name="Retillion"
+				description = 
+					"A mix of tundra, swamps, rivers, and dense forests. Home to the mysterious chameleonic Yssaril, whose capital Wueca has eluded all attempts at cartography."
+				resources   = "2"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Shalloq"
+				description = 
+					"Covered with tundra, wetlands, and rainforest, much like its sister-planet Retillion. Home to Mojeb, the only major Yssaril city cataloged by off-worlders."
+				resources   = "1"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>Sardakk N'orr</race>
+		<planet name="Tren'lak"
+				description = 
+					"Icy and desolate. Other than the ferocious snow dracs and the rare icemoon flowers, life is restricted to the N'orr boomtowns and ice mines."
+				resources   = "1"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Quinarra"
+				description = 
+					"Enormous and oceanless. Not only the largest planet supporting sentient life, but also the one with the least moisture. Home to the Sardakk N'orr hive-cities."
+				resources   = "3"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Bereg"
+				description = 
+					"A frozen world that is inhospitable to most races. Indentured laborers risk attacks from arctic sharaks in the infamous Iodinium mines."
+				resources   = "3"
+				influence   = "1"
+				red         = "1"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Lirta IV"
+				description = 
+					"Covered in vast swamps and fetid bogs. Home to rare biochemical compounds unique to its marshlands, used in everything from exotic foods to biogenic drugs."
+				resources   = "2"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Mellon"
+				description = 
+					"Poor in natural resources but rich in exotic plant and animal life. Protected as a planetary xenological garden and lifeform preserve."
+				resources   = "0"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Zohbat"
+				description = 
+					"Known for its highly intoxicating Zohlian whiskey and the planetary beanstalk that links the surface with orbital stations and shipyards."
+				resources   = "3"
+				influence   = "1"
+				red         = "0"
+				blue        = "1"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Tar'Mann"
+				description = 
+					"Small, isolated planet with small population and modest resources. Most famous for its delicious avinberries."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Thibah"
+				description = 
+					"Burdened by overpopulation and low mineral content in the planetary crust. Historically used as a staging world for deep-space exploration and trade."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Dal Bootha"
+				description = 
+					"A populous planet whose resources have been severely depleted. Well-educated citizenry and many universities, but dependent of foreign imports."
+				resources   = "0"
+				influence   = "2"
+				red         = "1"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Xxehan"
+				description = 
+					"Known for genetically complex native lifeforms adapted to tainted atmosphere and toxic biochemistry."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Qucen'n"
+				description = 
+					"After the Twilight Wars, existed for centuries as a near-utopia of scattered communal farms free from governmental interference."
+				resources   = "1"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Rarron"
+				description = 
+					"Large, populous world with three distinctive moons renowned for its biomodification clinics and cyber boutiques."
+				resources   = "0"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>Beta</gates>
+		<race>None</race>
+		<planet name="Quann"
+				description = 
+					"Since the discovery of the Alpha Wormhole, this temperate planet with two continents and one large ocean has been a haven for traders and smugglers alike."
+				resources   = "2"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Vefut II"
+				description = 
+					"Massive, rocky world cursed with extreme gravity. Underground cities support advanced research in antigravity technologies."
+				resources   = "2"
+				influence   = "0"
+				red         = "1"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Abyz"
+				description = 
+					"Its thick, complex atmosphere is inhospitable to most races, but Abyz is known for its seemingly endless natural reserves of rare minerals and precious metals."
+				resources   = "3"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Fria"
+				description = 
+					"Brutally cold ice world populated only by a few scattered mining camps. Despite brutal climate, highly prized for its deposits of rare ores used in starship drives."
+				resources   = "2"
+				influence   = "0"
+				red         = "0"
+				blue        = "1"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Arinam"
+				description = 
+					"Isolated planet poor in resources but rich in natural beauty. Boasts many exotic resorts frequented by the rich and famous of the galaxy."
+				resources   = "1"
+				influence   = "2"
+				red         = "0"
+				blue        = "1"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Meer"
+				description = 
+					"Hellish world immolated in the inferno of its nearby sun. Famed for the fiery majesty of its surface when viewed from the safety of its many orbital stations."
+				resources   = "0"
+				influence   = "4"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Arnor"
+				description = 
+					"Lush, green world that is renowned for some of the most fertile soil in the galaxy. Dominated by endless fields and the processing facilities of large agricultural firms."
+				resources   = "2"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Lor"
+				description = 
+					"Wreathed in vast seas of methane ice. Seafloor drilling platforms harvest rare crystals used in advanced computers and energy weapons."
+				resources   = "1"
+				influence   = "2"
+				red         = "1"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Wellon"
+				description = 
+					"Sky cities suspended in helium-rich atmosphere more noted for fantastic views than the small quantities of exotic elements harvested by their chemical mines."
+				resources   = "1"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Mehar Xull"
+				description = 
+					"Unstable radiation belts create hazardous living conditions but facilitate research in electro-quantum propulsion technologies."
+				resources   = "1"
+				influence   = "3"
+				red         = "0"
+				blue        = "1"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Saudor"
+				description = 
+					"Prosperous planet with large native population and substantial industry. Extreme axial tilt results in long day-night cycles that some races find uncomfortable."
+				resources   = "2"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Lazar"
+				description = 
+					"The only inhabited world in a forgetable system. Few native resources and only rudimentary, often underdeveloped industries."
+				resources   = "1"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Sakulag"
+				description = 
+					"Jungle planet plagued by dangerous predators such as the arboreal razeden. Home to many exotic biochemicals and natural pharmaceuticals."
+				resources   = "2"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Tequ'ran"
+				description = 
+					"Desolate planet transformed into weapons testing facility for large defense consortiums."
+				resources   = "2"
+				influence   = "0"
+				red         = "1"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Torkan"
+				description = 
+					"Populous planet almost completely dependent on foreign imports to sustain the extravagant lifestyles of its citizens."
+				resources   = "0"
+				influence   = "3"
+				red         = "0"
+				blue        = "1"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Coorneeq"
+				description = 
+					"Former garden world that has subsequently enjoyed increased industrialization. Home to the esteemed Free Worlds Academy of Military Science and Research."
+				resources   = "1"
+				influence   = "2"
+				red         = "1"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Resculon"
+				description = 
+					"Poor in natural resources, but a nearby nexus of major trade routes has brought it increasing wealth as interstellar commerce has intensified."
+				resources   = "2"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="New Albion"
+				description = 
+					"Rare atmospheric composition and biochemistry support lifeforms unlike any other in the galaxy."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Starpoint"
+				description = 
+					"Large planet with eight small moons that supply a wide range of valuable resources. Acidic rains and toxic storms make it an unappealing destination for tourists."
+				resources   = "3"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Centauri"
+				description = 
+					"Venerable world with few resources but a rich history. Site of important treaties between several races during the Twilight Wars."
+				resources   = "1"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+		<planet name="Gral"
+				description = 
+					"Backwater planet with modest resources and an unassuming populace. Most noted for the reliable and affordable vehicles produced in its factories."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "1"
+				green       = "0"
+				yellow      = "0">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>Alpha</gates>
+		<race>None</race>
+		<planet name="Lodor"
+				description = 
+					"Wealthy planet ruled by powerful biotech consortiums. Rumored to harbor hidden caches of outlawed bacterial weapons."
+				resources   = "3"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Asteroid Field</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Asteroid Field</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Asteroid Field</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Nebula</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Supernova</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>Alpha</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>Beta</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Empty</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
 	</tile>
 </list>

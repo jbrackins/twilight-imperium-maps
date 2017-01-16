@@ -2,14 +2,233 @@
 <list>
 	<tile>
 		<color>Yellow</color>
-		<property>Mecatol Rex</property>
+		<type>Mecatol Rex</type>
+		<property>None</property>
 		<gates>None</gates>
 		<race>The Lazax</race>
 		<planet name="Mecatol Rex"
 				description = 
 					"Seat to the Lazax, Mecatol Rex serves as home to the Galactic Council. Its green fields are only interrupted by sprawling cities of unimaginable wealth."
 				resources   = "3"
-				influence   = "6">		
+				influence   = "6"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
 		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>Delta</gates>
+		<race>The Ghosts of Creuss</race>
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>Delta</gates>
+		<race>The Ghosts of Creuss</race>
+		<planet name="Creuss"
+				description = 
+					"Trapped between matter and void lies the realm of Creuss. Made of trapped light and radioactive gas, this realm hosts the most peculiar forms of life."
+				resources   = "4"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Nekro Virus</race>
+		<planet name="Mordai II"
+				description = 
+					"Mined to its bones by the virulent Nekro, Modrai II is reinforced by graviton energy-beams that barely keeps the world from collapsing in on itself."
+				resources   = "4"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Yellow</color>
+		<type>Home</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>The Arborec</race>
+		<planet name="Nestphar"
+				description = 
+					"The fungal world of Nestphar is home to the symbiotic Arborec. Nestphar's orbit is filled with Flaah spores that extends its Symphony."
+				resources   = "3"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "1"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Tempesta"
+				description = 
+					"Although virtually uninhabitable, new research indicates the frozen plasma above Tempesta's atmosphere contains the most potent fuel ever discovered."
+				resources   = "1"
+				influence   = "1"
+				red         = "0"
+				blue        = "2"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Faunus"
+				description = 
+					"The famous laboratories on Faunus are run by the Maxis order. Although controversial, the order is the undisputed leader in the biogenics field."
+				resources   = "1"
+				influence   = "3"
+				red         = "0"
+				blue        = "0"
+				green       = "2"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Industrex"
+				description = 
+					"Industrex was once solely supported by the Lazax military complex. Devastated during the Twilight Years, it has since become self-sufficient."
+				resources   = "2"
+				influence   = "0"
+				red         = "2"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Sem-Lore"
+				description = 
+					"Home to the minor race of the Semanora. Though lush and prosperous, Sem-Lore has never been held long by a major power, and therefore is rumored to be cursed."
+				resources   = "3"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "1">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>None</color>
+		<type>Regular</type>
+		<property>None</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Hercalor"
+				description = 
+					"Once a farming world, Hercalor has long since burned through its nitrates. Now mostly depopulated, it has become a haven for free traders and rogues."
+				resources   = "1"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "1">		
+		</planet> 
+		<planet name="Tiamat"
+				description = 
+					"Tiamat is the largest population center in the Arill cluster. Its people are peaceful but surprisingly insular despite their planet's central location."
+				resources   = "1"
+				influence   = "2"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "1">		
+		</planet>
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Gravity Rift</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Cormund"
+				description = 
+					"Over 400 years ago, Cormund's sun blinked out, and its inhabitants were believed lost forever."
+				resources   = "2"
+				influence   = "0"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Nebula</property>
+		<gates>None</gates>
+		<race>None</race>
+		<planet name="Everra"
+				description = 
+					"Most believe the legendary planet of Everra to be nothing but myth. Stories tell of its nano-carbon cities made by the Ancients during the first years."
+				resources   = "3"
+				influence   = "1"
+				red         = "0"
+				blue        = "0"
+				green       = "0"
+				yellow      = "0">		
+		</planet> 
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Race Special</type>
+		<property>Supernova</property>
+		<gates>None</gates>
+		<race>Embers of Muaat</race>
+	</tile>
+
+	<tile>
+		<color>Red</color>
+		<type>Special</type>
+		<property>Gravity Rift</property>
+		<gates>None</gates>
+		<race>None</race>
 	</tile>
 </list>
