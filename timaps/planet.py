@@ -21,7 +21,33 @@ class Planet:
         self.resources   = res
         self.influence   = inf
         self.description = des
+        self.red         = 0 # Warfare
+        self.green       = 0 # Biotechnology
+        self.blue        = 0 # Propulsion
+        self.yellow      = 0 # General
 
+    def setName(self,name):
+        self.name = name
+
+    def setStats(self, resources=-1,influence=-1):
+        if resources > 0:
+            self.resources = resources
+        if influence > 0:
+            self.influence = influence
+
+    def setTech(self,red=-1,green=-1,blue=-1,yellow=-1):
+        if red > 0:
+            self.red = red 
+        if green > 0:
+            self.green = green
+        if blue > 0:
+            self.blue = blue
+        if yellow > 0:
+            self.yellow = yellow
+
+    def setDescription(self,description):
+        self.description = description
+        
     def __repr__(self):
         msg =  "<Planet Name:%s | Resources:%d | " % (self.name, 
                                                       self.resources)
