@@ -26,6 +26,12 @@ class SystemTile:
         self.planets  = planets # Planets located in system
         self.race     = race    # Races associated with system (if any)
 
+    def getColor(self):
+        return self.color
+
+    def getType(self):
+        return self.type 
+
     def setColor(self,color):
         self.color = color
 
@@ -55,7 +61,12 @@ class SystemTile:
             for planet in self.planets:
                 msg += str(planet) + "\n"
 
-        return msg
+        # temp change
+        #return msg
+        return self.type
+
+    def __str__(self):
+        return self.type
 
 if __name__ == "__main__":
     

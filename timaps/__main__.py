@@ -10,7 +10,7 @@ if __name__ == "__main__":
     if(len(sys.argv) > 1):
         num = int(sys.argv[1])
     else:
-        num = 8
+        num = 6
 
     print("\nTI-Maps Demo:\n")
 

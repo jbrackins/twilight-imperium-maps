@@ -26,16 +26,17 @@ class RuleSet:
         self.emptyCount   = emp
         self.regularCount = reg
         self.other        = other
-        self.randRemove   = 0
-        self.shards       = True  # shards of the throne
-        self.shattered    = False # shattered empire
+        self.removeCount  = 0
+        self.shards       = True  # shards of the throne expansion
+        self.shattered    = False # shattered empire expansion
+        self.fall         = False # Fall of The Empire scenario
         self.generateRules()
 
-    def setRules(self,s,e,r,rand=0):
+    def setRules(self,s,e,r,rndom=0):
         self.specialCount = s 
         self.emptyCount   = e 
         self.regularCount = r 
-        self.randRemove   = rand
+        self.removeCount  = rndom
 
     def generateRules(self):
         if self.galaxySize == "normal" and self.other == "None":
