@@ -1,4 +1,5 @@
 import sys
+from rules import RuleSet
 
 class ASCIIMap:
     """ASCII Maps of Twilight Imperium Galaxy
@@ -16,9 +17,25 @@ class ASCIIMap:
 
         self.map   = ""
         self.rules = rules
+
+        if self.rules != None:
+            self.setMap()
     
     def setMap(self):
-        msg = ""
+        if self.rules.galaxySize == "normal" and self.rules.other == "None":
+            p = self.rules.playerCount
+            if   p == 3:
+                self.map = self.players3()
+            elif p == 4:
+                self.map = self.players4()
+            elif p == 5:
+                self.map = self.players5()
+            elif p == 6:
+                self.map = self.players6()
+            elif p == 7:
+                self.map = self.players7()
+            elif p == 8:
+                self.map = self.players8()
 
     def getMap(self):
         return self.map
