@@ -29,7 +29,7 @@ class XMLParser:
     
     def setFile(self,file):
         self.filename = file
-        print(file)
+        #print(file)
         if file != None:
             self.setTree()
 
