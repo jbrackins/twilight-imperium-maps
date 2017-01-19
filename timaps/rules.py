@@ -14,7 +14,8 @@ class RuleSet:
                  spec    = 3,
                  emp     = 5,
                  reg     = 16,
-                 other   = "None"):
+                 other   = "None",
+                 quick   = False):
         """RuleSet class initialization method.
         """
 
@@ -28,9 +29,102 @@ class RuleSet:
         self.other        = other
         self.removeCount  = 0
         self.shards       = True  # shards of the throne expansion
-        self.shattered    = False # shattered empire expansion
+        self.shattered    = True # shattered empire expansion
         self.fall         = False # Fall of The Empire scenario
+
+        if not quick:
+            self.rulePrompt()
         self.generateRules()
+
+    def rulePrompt(self):
+        self.promptShards()
+        self.promptShattered()
+        if self.shards:
+            self.promptFall()
+        self.promptPlayers()
+
+    def promptShards(self):
+        valid = ["Y","YES","N","NO"]
+        loop = True
+        while loop:
+            choice = input("Play With Shards Of The Throne Expansion? [y/n]: ")
+            if choice.upper() in valid:
+                loop = False
+                choice = choice.upper()
+            else:
+                print("Invalid Choice...")
+        if choice == "Y" or choice == "YES":
+            choice = True 
+        elif choice == "N" or choice == "NO":
+            choice = False
+        self.setShards(choice)
+
+    def promptShattered(self):
+        valid = ["Y","YES","N","NO"]
+        loop = True
+        while loop:
+            choice = input("Play With Shattered Empire Expansion? [y/n]: ")
+            if choice.upper() in valid:
+                loop = False
+                choice = choice.upper()
+            else:
+                print("Invalid Choice...")
+        if choice == "Y" or choice == "YES":
+            choice = True 
+        elif choice == "N" or choice == "NO":
+            choice = False
+        self.setShattered(choice)
+
+    def promptFall(self):
+        valid = ["Y","YES","N","NO"]
+        loop = True
+        while loop:
+            choice = input("Play The Fall of The Empire Game Type? [y/n]: ")
+            if choice.upper() in valid:
+                loop = False
+                choice = choice.upper()
+            else:
+                print("Invalid Choice...")
+        if choice == "Y" or choice == "YES":
+            choice = True 
+        elif choice == "N" or choice == "NO":
+            choice = False
+        self.setFall(choice)
+
+    def promptPlayers(self):
+        valid = [3,4,5,6,7,8]
+        loop = True
+        while loop:
+            choice = input("How Many Players? [3-8]: ")
+            if choice.isdigit():
+                choice = int(choice)
+                if choice in valid:
+                    if choice > 6 and self.shattered == False:
+                        msg  = str(choice) + " Player Games "
+                        msg += "are Unavailable unless you "
+                        msg += "are\n playing with the Shattered "
+                        msg += "Empire Expansion..."
+                        print(msg)
+                        self.promptShattered()
+                    else:
+                        loop = False
+                else:
+                    print("Player Count must be between 3 and 8")
+            else:
+                print("Invalid Choice...")
+        self.setPlayerCount(choice)
+
+    def setPlayerCount(self,value):
+        self.playerCount = value
+
+    def setShards(self,value):
+        self.shards = value
+
+    def setShattered(self,value):
+        self.shattered = value
+
+    def setFall(self,value):
+        self.fall = value
 
     def setRules(self,s,e,r,rndom=0):
         self.specialCount = s 
@@ -39,6 +133,9 @@ class RuleSet:
         self.removeCount  = rndom
 
     def generateRules(self):
+
+        # 7 and 8 can only happen if you have 
+        # shattered empire expansion.
         if self.galaxySize == "normal" and self.other == "None":
             p = self.playerCount
             if   p == 3:
