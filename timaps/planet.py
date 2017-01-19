@@ -47,13 +47,16 @@ class Planet:
 
     def setDescription(self,description):
         self.description = description
-        
+
     def __repr__(self):
         msg =  "<Planet Name:%s | Resources:%d | " % (self.name, 
                                                       self.resources)
         msg += "Influence:%d>\n%s"                 % (self.influence, 
                                                       self.description)
         return msg
+
+    def __str__(self):
+        return self.name
 
 
 if __name__ == "__main__":
