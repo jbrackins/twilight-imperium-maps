@@ -66,7 +66,29 @@ class SystemTile:
         return self.type
 
     def __str__(self):
-        return self.type
+        msg = ""
+        count = 0
+
+        msg += "["+ self.getType() + " Tile]"
+        count += 1
+        if self.property != "None":
+            if count > 0:
+                msg += "\n\t   "
+            msg += "Special: " + str(self.property)
+            count += 1
+        if len(self.planets) > 0:
+            for planet in self.planets:
+                if count > 0:
+                    msg += "\n\t   "
+                msg += "Planet : " + str(planet)
+                count += 1
+        if self.gates != "None":
+            if count > 0:
+                msg += "\n\t   "
+            msg += "Gate   : " + str(self.gates)
+            count += 1            
+        return msg
+        #return self.type
 
 if __name__ == "__main__":
     
