@@ -9,29 +9,13 @@ from maps   import GalaxyMap
 if __name__ == "__main__":
     if(len(sys.argv) > 1):
         num = int(sys.argv[1])
+        quick = True
     else:
         num = 6
+        quick = False
 
-    print("\nTI-Maps Demo:\n")
+    print("\nTI-Maps:\n")
 
-    r = RuleSet(players=num)
-
-    d  = "Once a splendid place, now a sad devastated wasteland. "
-    d += "Only the radiation-shielded Mecatol City, the seat of the "
-    d += "powerful Galactic Council, remains habitable."
-    p = Planet("Mecatol Rex", 1, 6, d)
-
-    s = SystemTile(systype="Mecatol Rex",planets=[p])
-    print(s,"\n")
-
+    r = RuleSet(players=num,quick=quick)
     g = GalaxyMap(r)
-    #x1 = XMLParser("ti.xml")
-    #c1 = x1.test()
-    #x2 = XMLParser("shards.xml")
-    #c2 = x2.test()
-    #x3 = XMLParser("shattered.xml")
-    #c3 = x3.test()
-
-    #print("Twilight Imperium Tile Count   :", c1)
-    #print("Shards of the Throne Tile Count:", c2)
-    #print("Shattered Empire Tile Count    :", c3)
+    g.run()
