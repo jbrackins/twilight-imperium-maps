@@ -1,13 +1,30 @@
-import sys
+"""TIMaps ASCIIMaps Class.
+
+This module contains the ASCIIMap class, which returns a specific 
+map based on the ruleset the user has indicated. 
+
+These maps are just visual representations of the hexagonal game 
+boards for Twilight Imperium III.
+
+Todo:
+    * Generate cool, unconventional galaxy configurations someday.
+
+.. TIMaps GitHub Repository:
+   https://github.com/jbrackins/twilight-imperium-maps
+
+
+"""
+
 from rules import RuleSet
 
 class ASCIIMap:
     """ASCII Maps of Twilight Imperium Galaxy
 
-    The ASCIIMap Class
+    The ASCIIMap Class will generate the graphical 
+    representation of the game board.
 
     Attributes:
-        tbd
+        rules   The RuleSet used for generating maps
     """
 
     def __init__(self,
@@ -22,6 +39,8 @@ class ASCIIMap:
             self.setMap()
     
     def setMap(self):
+        """Set the ASCII map based on the ruleset.
+        """
         if self.rules.galaxySize == "normal" and self.rules.other == "None":
             p = self.rules.playerCount
             if   p == 3:
@@ -38,9 +57,13 @@ class ASCIIMap:
                 self.map = self.players8()
 
     def getMap(self):
+        """Return the ASCII map.
+        """
         return self.map
         
     def printMap(self):
+        """Print out the ASCII map.
+        """
         print(self.map)
 
     def players3(self):
@@ -67,6 +90,7 @@ class ASCIIMap:
     def players4(self):
         """Standard 4 Player Map
         """
+
         msg = ""
         msg += "\t             __             \n"
         msg += "\t          __/19\__          \n"
@@ -89,18 +113,21 @@ class ASCIIMap:
     def players5(self):
         """Standard 5 Player Map
         """
+
         # Identical to 4 Player Map
         return self.players4()
 
     def players6(self):
         """Standard 6 Player Map
         """
+
         # Identical to 4 Player Map
         return self.players4()
 
     def players7(self):
         """Standard 7 Player Map
         """
+
         msg = ""
         msg += "\t             __                 \n"
         msg += "\t          __/37\__              \n"
@@ -127,23 +154,18 @@ class ASCIIMap:
     def players8(self):
         """Standard 8 Player Map
         """
+
         # Identical to 7 Player Map
         return self.players7()
 
-
-
-
-        
-
-
     def __repr__(self):
-        return "ASCII Maps"
+        return self.getMap()
 
 if __name__ == "__main__":
-    if(len(sys.argv) > 1):
-        num = int(sys.argv[1])
-    else:
-        num = 8
+    """Main Function. 
+       Running this module on its own will 
+       simply print out every map available.
+    """
 
     z = ASCIIMap()
     print(z.players3())
